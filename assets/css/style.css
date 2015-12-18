@@ -1,0 +1,13 @@
+body, html {
+	background-color:#2412b4;
+
+}
+
+.header {
+	font-family:Arial;
+	color:black;
+}
+
+#image {
+	width:50%;
+}
