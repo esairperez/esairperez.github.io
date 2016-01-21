@@ -1,5 +1,8 @@
-body, html {
-	background-color:#2412b4;
+html {
+	margin-right:0px; 
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
 
 }
 
@@ -10,4 +13,27 @@ body, html {
 
 #image {
 	width:50%;
+}
+
+.Sechead{
+	font-family:Monospace;
+}
+
+#contact{
+	background-color:#b7d6dd;
+}
+
+#photo{
+	background-color:#66ccff;
+}
+
+#home{
+	background-color:#6600ff;
+}
+.copy{
+	color:black;
+}
+
+.p{
+	color:black;
 }
