@@ -1,0 +1,122 @@
+html {
+	margin-right:0px; 
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+
+}
+/**CSS for my index page**/
+body
+{
+	background-color:#0099ff;
+	margin:0;
+	padding:0;
+
+}
+
+#head
+{
+	font-family: "Didot", serif;
+	text-align: center;
+
+
+}
+
+
+#p
+{
+	text-align:center;
+	margin-top:0em;
+	font-family:"Big Caslon",serif;
+	font-size: 130%;
+	color:white;
+
+
+}
+
+.list
+{
+	font-family:courier;
+	color:white;
+}
+
+.pic
+{
+
+	display:block;
+	height:42;
+	text-align: right;
+}
+/**ends**/
+
+
+
+/**CSS for my Contact page**/
+.contact
+{
+	
+	color:blue;
+}
+
+#form
+{
+	text-align: center;
+}
+/**end**/
+
+
+
+/**CSS for my product page**/
+.products
+{
+	font-family: "copperplate", sans-serif;
+	text-align: center;
+}
+
+.right
+{
+	float:right;
+}
+
+.destinations
+{
+	font-family: "Impact", "Charcoal", sans-serif;
+	text-align: center;
+}
+/**ends**/
+
+
+
+/**CSS for my sitemap page**/
+.sitemap
+{
+	background-color: #eaeaea;
+	color:black;
+}
+
+
+.site
+{
+	text-align: center;
+
+
+}
+
+#sitelist
+{
+	color:blue;
+	text-align: center;
+	text-decoration: underline;
+}
+/**end**/
+
+
+/**changes my navigation**/
+.nav{
+	font-family: monospace;
+}
+.navbar-brand
+{
+	font-family: "Impact",sans-serif;
+	font-size: 300%;
+}
