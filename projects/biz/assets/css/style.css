@@ -55,13 +55,26 @@ body
 .contact
 {
 	
-	color:blue;
+	color:Black;
 }
 
 #form
 {
 	text-align: center;
 }
+#questions
+{
+	color:white;
+	font-weight:bold;
+}
+#email
+{
+	float:left;
+	
+	
+	
+}
+
 /**end**/
 
 
@@ -84,6 +97,44 @@ body
 	text-align: center;
 }
 /**ends**/
+
+
+/**CSS for about page**/
+.about
+{
+	font-family:"Andale Mono",monospace;
+	
+
+}
+
+.us
+{
+	font-family: serif;
+	font-size: 200%;
+	color:white;
+	text-align:center;
+
+}
+
+.aus
+{
+	font-size:300%;
+	font-weight: bold;
+	text-align: center;
+	text-decoration:underline;
+}
+.LA
+{
+	float:right;
+}
+
+/**end**/
+
+
+
+
+
+
 
 
 
@@ -119,4 +170,9 @@ body
 {
 	font-family: "Impact",sans-serif;
 	font-size: 300%;
+}
+.container
+{
+	background: -prefix-linear-gradient(top, silver, white);
+	background: linear-gradient(to bottom, silver, white);
 }
