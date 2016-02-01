@@ -8,7 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/LT.ico">
-		<title>Esai Perez</title>
+		<title>UP N GO</title>
 	</head>
 
 
@@ -23,14 +23,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">LocoTrip</a>
+          <a class="navbar-brand" href="index.html">UP N GO</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
           	<!--how to link a page to go to another page-->
            <li><a href="index.html">Home</a></li>
             <li class="active"><a href="contact.html">Contact</a></li>
-            <li><a href="products.html">Products</a></li> 
+            <li><a href="products.html">Destinations</a></li> 
             <li><a href="about.html">About</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -40,7 +40,6 @@
 <br>
 <br>
 
-<div id="form">
 
 <h1><u>Message Us</u></h1>
   <div id="questions">
@@ -55,19 +54,58 @@
 
 
 
-
-<form name="contactform" action="emailform.php" method="post" enctype="text/plain">
-Recipient:<br>
-<input type="text" name="name" value=""><br>
-Subject:<br>
-<input type="text" name="mail" value=""><br>
-Message:<br>
-<input type="text" name="Message" value="" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
+<form name="contactform" method="post" action="emailform.php">
+  <Table>
+    <tr>
+      <td>
+  <label for="first_name">First Name *</label>
+</td>
+  <td> 
+ <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+<td>
+  <label for="last_name">Last Name *</label>
+  </td>
+  <td>
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+  <td>
+  <label for="email">Email Address *</label>
+  </td>
+  <td>
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+  <td>
+  <label for="telephone">Telephone Number</label>
+  </td>
+  <td>
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+  <td>
+  <label for="comments">Comments *</label>
+  </td>
+  <td>
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+  <tr>
+  <td>
+  <input type="submit" value="Submit">  
+ </td>
+</tr>
+</Table>
 </form>
 
-</div>
+
+
 
 <footer>
   <a href="sitemap.html"><p><u>SiteMap</a></u></p>

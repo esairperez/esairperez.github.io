@@ -1,14 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<div class="nav">
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" class="active" href="index.html">LocoTrip</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <!--how to link a page to go to another page-->
+           <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="products.html">Destination</a></li> 
+            <li><a href="about.html">About</a></li>   
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
 <?php
- 
+
 if(isset($_POST['email'])) {
  
      
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "you@yourdomain.com";
+    $email_to = "esairperez10@gmail.com";
  
-    $email_subject = "Your email subject line";
+    $email_subject = "Subject";
  
      
  
@@ -68,7 +96,7 @@ if(isset($_POST['email'])) {
  
   if(!preg_match($email_exp,$email_from)) {
  
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
+    $error_message .= 'Email Address is not valid.<br />';
  
   }
  
@@ -76,19 +104,19 @@ if(isset($_POST['email'])) {
  
   if(!preg_match($string_exp,$first_name)) {
  
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
+    $error_message .= 'The First Name you entered is not valid.<br />';
  
   }
  
   if(!preg_match($string_exp,$last_name)) {
  
-    $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
+    $error_message .= 'The Last Name you entered is not valid.<br />';
  
   }
  
   if(strlen($comments) < 2) {
  
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
+    $error_message .= ' Comment is not valid.<br />';
  
   }
  
@@ -144,7 +172,7 @@ $headers = 'From: '.$email_from."\r\n".
  
  
  
-Thank you for contacting us. We will be in touch with you very soon.
+Thank you for contacting us. We will get back to you as soon as possible.
  
  
  
@@ -153,3 +181,5 @@ Thank you for contacting us. We will be in touch with you very soon.
 }
  
 ?>
+</body>
+</html>
