@@ -11,15 +11,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" class="active" href="index.html">LocoTrip</a>
+          <a class="navbar-brand" class="active" href="index.php">UP N GO</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <!--how to link a page to go to another page-->
-           <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="products.html">Destination</a></li> 
-            <li><a href="about.html">About</a></li>   
+           <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="destinations.php">Destination</a></li> 
+            <li><a href="about.php">About</a></li>   
           </ul>
         </div><!--/.nav-collapse -->
       </div>

@@ -14,8 +14,9 @@
 
 <body class="products">
 <?php
-
+ require_once("nav.php");
 ?>
+<!-- NavBar for html
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -30,15 +31,15 @@
         
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-      <!--how to link a page to go to another page-->
+
         <li><a href="index.html">Home</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li class="active"><a href="products.html">Destination</a></li> 
         <li><a href="about.html">About</a></li> 
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
-</nav>
+</nav>-->
 
 <br>
 <br>
@@ -128,11 +129,12 @@
 </Table>
 
 <?php
-
+require_once("footer.php");
 ?>
+<!--footer for html
 <footer style="text-align:right">
   <a href="sitemap.html"><p><u>SiteMap</a></u></p>
-</footer>
+</footer>-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
    <script src="assets/js/bootstrap.min.js"></script>
