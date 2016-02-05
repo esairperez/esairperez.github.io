@@ -7,10 +7,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="shortcut icon" type="image/x-icon" href="assets/img/LT.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
 		<title>UP N GO</title>
 	</head>
 
+<br>
+ <h1><img src="assets/img/logo.png" width="200">
+      <!--<u><strong>Up N Go</u>--></h1>
 
 <body class="contact">
 
@@ -41,9 +44,7 @@
         </div><
       </div>
 </nav>-->
-<br>
-<br>
-<br>
+
 
 
 <h1><u>Message Us</u></h1>

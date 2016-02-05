@@ -1,5 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png">
+    <title>UP N GO</title>
+  </head>
+ 
+ <br>
+ <h1><img src="assets/img/logo.png" width="200">
+      <!--<u><strong>Up N Go</u>--></h1>
+
 <body>
 <div class="nav">
        <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -36,7 +51,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "esairperez10@gmail.com";
  
-    $email_subject = "Subject";
+    $email_subject = "Customer";
  
      
  
